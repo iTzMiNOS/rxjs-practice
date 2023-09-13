@@ -16,13 +16,15 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
+import { NewcompComponent } from './newcomp/newcomp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ObservableComponent,
     AutoCompleteComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    NewcompComponent
   ],
   imports: [
     BrowserModule,
